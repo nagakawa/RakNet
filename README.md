@@ -1,9 +1,14 @@
-Larku's fork of RakNet 4.081
+AGC's fork of Larku's fork of RakNet 4.081
 ============
 
 Copyright (c) 2014, Oculus VR, Inc.
 
-Fork notes [updated 27-July-2015]
+AGC's fork notes [updated 10 December 2016]
+-------------------------------------------
+
+This fork has only a few minor changes: CMake can now configure the project properly for Linux, and LIBCAT_SECURITY is enabled by default.
+
+larku's Fork notes [updated 27-July-2015]
 ------------------------------------------
 
 This fork contains most of the pending pull requests from the official Oculus VR original.
