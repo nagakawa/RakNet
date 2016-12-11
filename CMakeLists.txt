@@ -24,6 +24,9 @@ ENDIF(WIN32 AND NOT UNIX)
 
 set(CMAKE_DEBUG_POSTFIX "_d")
 
+# set(USEFMOD false)
+# set(USEPORTAUDIO false)
+
 # Options
 option( RAKNET_ENABLE_SAMPLES 	"Generate RakNet sample projects if true." 		TRUE  )
 option( RAKNET_ENABLE_DLL		"Generate the DLL project if true." 			TRUE )
