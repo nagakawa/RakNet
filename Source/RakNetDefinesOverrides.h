@@ -10,5 +10,3 @@
 
 // USER EDITABLE FILE
 
-#define LIBCAT_SECURITY 1
-
