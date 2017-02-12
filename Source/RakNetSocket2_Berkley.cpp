@@ -205,6 +205,7 @@ RNS2BindResult RNS2_Berkley::BindSharedIPV4( RNS2_BerkleyBindParameters *bindPar
 
 	// bind our name to the socket
 	ret = bind__( rns2Socket, ( struct sockaddr * ) &boundAddress.address.addr4, sizeof( boundAddress.address.addr4 ) );
+	// if (ret == -1) ret = errno;
 
 	if ( ret <= -1 )
 	{

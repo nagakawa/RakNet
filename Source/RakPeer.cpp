@@ -3796,7 +3796,7 @@ void RakPeer::ShiftIncomingTimestamp( unsigned char *data, const SystemAddress &
 #endif
 
 	RakNet::BitStream timeBS( data, sizeof(RakNet::Time), false);
-        timeBS.EndianSwapBytes(0,sizeof(RakNet::Time));
+  //      timeBS.EndianSwapBytes(0,sizeof(RakNet::Time));
 	RakNet::Time encodedTimestamp;
 	timeBS.Read(encodedTimestamp);
 
